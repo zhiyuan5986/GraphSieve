@@ -1,0 +1,14 @@
+**/__pycache__
+wandb
+*.pth
+retrieve/data_files
+*.sh
+visualize_scores/
+*.pdf
+*.csv
+selector_path_sft_*/
+selector_path_grpo_*/
+selector_path_dpo_*/
+selector_path_optiset_*/
+KGQA/
+outputs/
