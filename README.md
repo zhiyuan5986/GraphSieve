@@ -1,4 +1,4 @@
-# GraphSieve: AAAI Supplementary Code
+# GraphSieve: Learning to Select Grounded Paths for Knowledge Graph Question Answering
 
 This directory is the self-contained supplementary implementation for **GraphSieve**. It follows the paper's three-part pipeline: (1) encode the question and knowledge-graph (KG) text, (2) use a path-conditioned graph selector to construct a compact evidence subgraph, and (3) ask a frozen large language model (LLM) to answer from the selected paths. The optional **OptiSet** stage improves the selector with offline path-set preferences derived from downstream answer likelihood, without updating the LLM.
 
